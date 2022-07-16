@@ -11,6 +11,11 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
     outline: none;
   }
+
+  &:hover .teem-dscr,
+&:focus .teem-dscr {
+  transform: translateY(0);
+}
 }
 
 .teem-overlay {
@@ -39,10 +44,7 @@
   background-color: rgba(33, 150, 243, 0.9);
 }
 
-.teem-link:hover .teem-dscr,
-.teem-link:focus .teem-dscr {
-  transform: translateY(0);
-}
+
 .teem-list {
   display: flex;
   flex-wrap: wrap;
