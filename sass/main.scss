@@ -1,10 +1,15 @@
+// Utils
 @import "./utils/vars";
 @import "./utils/visually-hidden";
 @import "./utils/heading";
+@import "./utils/current";
+@import "./utils/placeholder";
 
+// Base
 @import "./base/common";
 @import "./base/reset";
 
+// Components
 @import "./components/buttons";
 @import "./components/container";
 @import "./components/section";
@@ -12,11 +17,11 @@
 @import "./components/childrens";
 @import "./components/customers";
 @import "./components/feature";
-@import "./components/teem";
 @import "./components/work";
 @import "./components/filter";
 
-
-
+// Layouts
+@import "./layouts/teem";
 @import "./layouts/header";
 @import "./layouts/hero";
+@import "./layouts/footer";
