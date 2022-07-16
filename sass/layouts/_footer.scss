@@ -97,11 +97,13 @@ address {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
-.address:hover,
-.address:focus {
-  color: var(--accent-color);
-}
+
 .maps {
   font-weight: 400;
   font-size: 14px;
@@ -117,6 +119,6 @@ address {
   }
 }
 .dscr {
-    display: flex;
-    align-items: baseline;
-  }
+  display: flex;
+  align-items: baseline;
+}
