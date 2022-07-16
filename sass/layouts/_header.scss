@@ -11,6 +11,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
   }
   .menu-nav.list {
     margin-left: 93px;
@@ -39,10 +44,7 @@
     color: #212121;
     display: flex;
   }
-  .menu:hover,
-  .menu:focus {
-    color: var(--accent-color);
-  }
+
   .menu-link.list {
     margin-left: auto;
     display: flex;
